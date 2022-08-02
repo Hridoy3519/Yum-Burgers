@@ -1,0 +1,95 @@
+/* Common Utility */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+
+:root {
+    --nav-link-color: #090909;
+    --primary-paragrapg-color: #BEBEBE;
+    --primary-page-color: #FF0303;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.nav-item a {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--nav-link-color);
+}
+
+nav .cart-portion p {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Banner Section */
+
+.banner-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner-section p {
+    color: var(--primary-paragrapg-color);
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.burger-customized-btn {
+    background-color: var(--primary-page-color);
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+.banner-section h2 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 62px;
+    color: #FAFF00;
+}
+
+.banner-section .sassy-burger-des {
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+}
+
+.red-bg {
+    width: 50%;
+    height: 100vh;
+    background-color: var(--primary-page-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .red-bg {
+        display: none;
+    }
+
+    .sassy-burger {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .red-bg {
+        display: none;
+    }
+
+    .sassy-burger {
+        display: none;
+    }
+}
