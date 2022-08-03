@@ -35,16 +35,18 @@ nav {
 }
 
 .nav-item a {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--nav-link-color);
+    /* color: var(--nav-link-color); */
+    color: var(--primary-page-color);
 }
 
 nav .cart-portion p {
     font-size: 21px;
     font-weight: 700;
     text-transform: uppercase;
+    color: white;
 }
 
 /* Banner Section */
@@ -192,6 +194,10 @@ footer p {
         display: none;
     }
 
+    nav .cart-portion p {
+        color: var(--nav-link-color);
+    }
+
     .rectangle-bg-2 img,
     .rectangle-bg-1 img,
     .rectangle-bg-3 img {
@@ -206,5 +212,9 @@ footer p {
 
     .sassy-burger {
         display: none;
+    }
+
+    .cart-portion p {
+        color: var(--nav-link-color);
     }
 }
